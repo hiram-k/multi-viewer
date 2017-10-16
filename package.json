@@ -1,0 +1,25 @@
+{
+  "name": "multidimentional-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "flow": "flow",
+    "build": "webpack",
+    "server": "http-server ./webroot"
+  },
+  "author": "Hiram K. Hackenbacker",
+  "license": "Unlicense",
+  "dependencies": {
+    "d3": "^4.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.56.0",
+    "http-server": "^0.10.0",
+    "webpack": "^3.7.1"
+  }
+}
